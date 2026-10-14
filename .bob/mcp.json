@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "dio-explorer": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/dio_explorer/mcp/build/index.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "trilhas": [
+    {
+      "id": 1,
+      "nome": "Formação Java Developer",
+      "tecnologia": "Java",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 48000,
+      "badges_disponiveis": [
+        "Java Fundamentals",
+        "OOP Master",
+        "Spring Boot Expert",
+        "Java Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-12-31",
+        "cupom": "JAVA20"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda terça-feira às 19h"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Formação Python Developer",
+      "tecnologia": "Python",
+      "nivel": "Básico",
+      "numero_de_modulos": 10,
+      "xp_total": 38000,
+      "badges_disponiveis": [
+        "Python Basics",
+        "Data Structures with Python",
+        "Python Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-09-30",
+        "cupom": "PYTHON15"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda segunda-feira às 20h"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Formação React Developer",
+      "tecnologia": "React",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 52000,
+      "badges_disponiveis": [
+        "React Fundamentals",
+        "Hooks Master",
+        "React Router Pro",
+        "Redux Expert",
+        "React Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 25,
+        "validade": "2025-10-15",
+        "cupom": "REACT25"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda quarta-feira às 19h30"
+      }
+    },
+    {
+      "id": 4,
+      "nome": "Formação Angular Developer",
+      "tecnologia": "Angular",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 65000,
+      "badges_disponiveis": [
+        "TypeScript Pro",
+        "Angular Components",
+        "RxJS Master",
+        "Angular Architect"
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-11-30",
+        "cupom": "ANGULAR10"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 5,
+      "nome": "Formação Node.js Developer",
+      "tecnologia": "Node.js",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 44000,
+      "badges_disponiveis": [
+        "Node.js Basics",
+        "Express Expert",
+        "REST API Builder",
+        "Node.js Developer"
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Primeira sexta-feira do mês às 20h"
+      }
+    },
+    {
+      "id": 6,
+      "nome": "Formação Cloud AWS",
+      "tecnologia": "Amazon Web Services",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 18,
+      "xp_total": 72000,
+      "badges_disponiveis": [
+        "AWS Cloud Practitioner",
+        "EC2 & S3 Expert",
+        "Lambda Serverless",
+        "AWS Solutions Architect",
+        "Cloud AWS Pro"
+      ],
+      "promocoes": {
+        "desconto_percentual": 30,
+        "validade": "2025-08-31",
+        "cupom": "AWS30"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda quinta-feira às 18h"
+      }
+    },
+    {
+      "id": 7,
+      "nome": "Formação Machine Learning com Python",
+      "tecnologia": "Machine Learning / Python",
+      "nivel": "Avançado",
+      "numero_de_modulos": 20,
+      "xp_total": 85000,
+      "badges_disponiveis": [
+        "NumPy & Pandas Pro",
+        "Scikit-learn Expert",
+        "Neural Networks",
+        "Deep Learning Specialist",
+        "ML Engineer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-12-31",
+        "cupom": "ML20"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda terça-feira às 20h"
+      }
+    },
+    {
+      "id": 8,
+      "nome": "Formação Flutter Mobile Developer",
+      "tecnologia": "Flutter / Dart",
+      "nivel": "Básico",
+      "numero_de_modulos": 9,
+      "xp_total": 35000,
+      "badges_disponiveis": [
+        "Dart Basics",
+        "Flutter Widgets",
+        "Flutter Mobile Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-09-01",
+        "cupom": "FLUTTER15"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 9,
+      "nome": "Formação Kotlin Android Developer",
+      "tecnologia": "Kotlin",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 50000,
+      "badges_disponiveis": [
+        "Kotlin Fundamentals",
+        "Android UI Expert",
+        "Jetpack Compose Pro",
+        "Kotlin Android Developer"
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Última quarta-feira do mês às 19h"
+      }
+    },
+    {
+      "id": 10,
+      "nome": "Formação DevOps & CI/CD",
+      "tecnologia": "DevOps / Docker / Kubernetes",
+      "nivel": "Avançado",
+      "numero_de_modulos": 17,
+      "xp_total": 70000,
+      "badges_disponiveis": [
+        "Docker Expert",
+        "Kubernetes Master",
+        "CI/CD Pipeline Pro",
+        "DevOps Engineer",
+        "Site Reliability"
+      ],
+      "promocoes": {
+        "desconto_percentual": 25,
+        "validade": "2025-11-15",
+        "cupom": "DEVOPS25"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda sexta-feira às 19h"
+      }
+    },
+    {
+      "id": 11,
+      "nome": "Formação Segurança Cibernética",
+      "tecnologia": "Cybersecurity",
+      "nivel": "Avançado",
+      "numero_de_modulos": 19,
+      "xp_total": 78000,
+      "badges_disponiveis": [
+        "Network Security",
+        "Ethical Hacker",
+        "OWASP Top 10",
+        "Penetration Tester",
+        "Cyber Defender"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-10-31",
+        "cupom": "CYBER20"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda segunda-feira às 19h"
+      }
+    },
+    {
+      "id": 12,
+      "nome": "Formação SQL & Banco de Dados",
+      "tecnologia": "SQL / PostgreSQL / MySQL",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 30000,
+      "badges_disponiveis": [
+        "SQL Basics",
+        "Query Optimizer",
+        "Database Designer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-07-31",
+        "cupom": "SQL10"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 13,
+      "nome": "Formação Vue.js Developer",
+      "tecnologia": "Vue.js",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 43000,
+      "badges_disponiveis": [
+        "Vue Basics",
+        "Vuex Master",
+        "Vue Router Pro",
+        "Vue.js Developer"
+      ],
+      "promocoes": null,
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Segunda semana do mês, quinta-feira às 20h"
+      }
+    },
+    {
+      "id": 14,
+      "nome": "Formação Data Science com R",
+      "tecnologia": "R / Data Science",
+      "nivel": "Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 60000,
+      "badges_disponiveis": [
+        "R Fundamentals",
+        "Statistical Analysis",
+        "Data Visualization",
+        "R Data Scientist"
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-12-15",
+        "cupom": "DATASCIENCE15"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda quarta-feira às 21h"
+      }
+    },
+    {
+      "id": 15,
+      "nome": "Formação .NET / C# Developer",
+      "tecnologia": ".NET / C#",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 56000,
+      "badges_disponiveis": [
+        "C# Basics",
+        "ASP.NET Core Expert",
+        "Entity Framework Pro",
+        ".NET Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-09-30",
+        "cupom": "DOTNET20"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda terça-feira às 18h30"
+      }
+    },
+    {
+      "id": 16,
+      "nome": "Formação Cloud Microsoft Azure",
+      "tecnologia": "Microsoft Azure",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 18,
+      "xp_total": 72000,
+      "badges_disponiveis": [
+        "Azure Fundamentals",
+        "Azure DevOps",
+        "Azure Functions Expert",
+        "Azure Data Engineer",
+        "Azure Solutions Architect"
+      ],
+      "promocoes": {
+        "desconto_percentual": 30,
+        "validade": "2025-11-01",
+        "cupom": "AZURE30"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda quinta-feira às 19h"
+      }
+    },
+    {
+      "id": 17,
+      "nome": "Formação Google Cloud Platform",
+      "tecnologia": "Google Cloud Platform",
+      "nivel": "Avançado",
+      "numero_de_modulos": 17,
+      "xp_total": 68000,
+      "badges_disponiveis": [
+        "GCP Associate",
+        "BigQuery Expert",
+        "GKE Master",
+        "GCP Architect"
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 18,
+      "nome": "Formação UX/UI Design",
+      "tecnologia": "Figma / UX Design",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 28000,
+      "badges_disponiveis": [
+        "UX Researcher",
+        "Figma Pro",
+        "UI Designer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-08-15",
+        "cupom": "UXUI10"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda sexta-feira às 18h"
+      }
+    },
+    {
+      "id": 19,
+      "nome": "Formação Blockchain Developer",
+      "tecnologia": "Blockchain / Solidity",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 74000,
+      "badges_disponiveis": [
+        "Web3 Fundamentals",
+        "Solidity Smart Contracts",
+        "DeFi Expert",
+        "NFT Developer",
+        "Blockchain Architect"
+      ],
+      "promocoes": {
+        "desconto_percentual": 25,
+        "validade": "2025-10-01",
+        "cupom": "BLOCK25"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda segunda-feira às 20h"
+      }
+    },
+    {
+      "id": 20,
+      "nome": "Formação Go (Golang) Developer",
+      "tecnologia": "Go / Golang",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 47000,
+      "badges_disponiveis": [
+        "Go Basics",
+        "Concurrency Master",
+        "Go Microservices",
+        "Go Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-12-31",
+        "cupom": "GOLANG15"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Terceira segunda-feira do mês às 19h"
+      }
+    },
+    {
+      "id": 21,
+      "nome": "Formação Rust Systems Developer",
+      "tecnologia": "Rust",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 62000,
+      "badges_disponiveis": [
+        "Rust Ownership",
+        "Systems Programming",
+        "Rust Async Expert",
+        "Rust Systems Developer"
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 22,
+      "nome": "Formação Swift iOS Developer",
+      "tecnologia": "Swift / iOS",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 51000,
+      "badges_disponiveis": [
+        "Swift Basics",
+        "SwiftUI Expert",
+        "Core Data Pro",
+        "iOS Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-09-15",
+        "cupom": "SWIFT20"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda quinta-feira às 20h"
+      }
+    },
+    {
+      "id": 23,
+      "nome": "Formação Inteligência Artificial Generativa",
+      "tecnologia": "GenAI / LLMs / Prompt Engineering",
+      "nivel": "Avançado",
+      "numero_de_modulos": 21,
+      "xp_total": 92000,
+      "badges_disponiveis": [
+        "Prompt Engineer",
+        "LangChain Expert",
+        "RAG Architect",
+        "Fine-tuning Specialist",
+        "GenAI Developer",
+        "AI Product Builder"
+      ],
+      "promocoes": {
+        "desconto_percentual": 35,
+        "validade": "2025-12-31",
+        "cupom": "GENAI35"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda quarta-feira às 19h"
+      }
+    },
+    {
+      "id": 24,
+      "nome": "Formação Power BI & Analytics",
+      "tecnologia": "Power BI / DAX",
+      "nivel": "Básico",
+      "numero_de_modulos": 9,
+      "xp_total": 33000,
+      "badges_disponiveis": [
+        "Power BI Basics",
+        "DAX Expert",
+        "BI Analyst"
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-07-31",
+        "cupom": "PBI10"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Segunda sexta-feira do mês às 18h"
+      }
+    },
+    {
+      "id": 25,
+      "nome": "Formação NestJS Microservices",
+      "tecnologia": "NestJS / TypeScript",
+      "nivel": "Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 61000,
+      "badges_disponiveis": [
+        "NestJS Fundamentals",
+        "Microservices Architect",
+        "gRPC Expert",
+        "Message Queue Pro",
+        "NestJS Engineer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-11-30",
+        "cupom": "NEST20"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda terça-feira às 21h"
+      }
+    },
+    {
+      "id": 26,
+      "nome": "Formação Engenharia de Dados",
+      "tecnologia": "Apache Spark / Kafka / Airflow",
+      "nivel": "Avançado",
+      "numero_de_modulos": 22,
+      "xp_total": 95000,
+      "badges_disponiveis": [
+        "ETL Specialist",
+        "Spark Data Engineer",
+        "Kafka Streaming Expert",
+        "Airflow Orchestrator",
+        "Data Lake Architect",
+        "Data Engineer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 30,
+        "validade": "2025-12-31",
+        "cupom": "DATAENG30"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda quinta-feira às 20h"
+      }
+    },
+    {
+      "id": 27,
+      "nome": "Formação Django REST Framework",
+      "tecnologia": "Django / Python",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 46000,
+      "badges_disponiveis": [
+        "Django Basics",
+        "DRF Expert",
+        "Django Security Pro",
+        "Django Backend Developer"
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 28,
+      "nome": "Formação Desenvolvimento de Games com Unity",
+      "tecnologia": "Unity / C#",
+      "nivel": "Básico",
+      "numero_de_modulos": 10,
+      "xp_total": 37000,
+      "badges_disponiveis": [
+        "Unity Beginner",
+        "2D Game Developer",
+        "3D Scene Builder",
+        "Game Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-10-31",
+        "cupom": "UNITY15"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Todo sábado às 15h"
+      }
+    },
+    {
+      "id": 29,
+      "nome": "Formação Infrastructure as Code com Terraform",
+      "tecnologia": "Terraform / IaC",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 67000,
+      "badges_disponiveis": [
+        "Terraform Basics",
+        "State Management Expert",
+        "Multi-Cloud IaC",
+        "Terraform Architect"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-11-15",
+        "cupom": "TERRA20"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda segunda-feira às 18h30"
+      }
+    },
+    {
+      "id": 30,
+      "nome": "Formação PHP Laravel Developer",
+      "tecnologia": "PHP / Laravel",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 42000,
+      "badges_disponiveis": [
+        "PHP Basics",
+        "Laravel Expert",
+        "Blade Templates Pro",
+        "Laravel Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-08-31",
+        "cupom": "LARAVEL10"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Mensal",
+        "dia_hora": "Última quinta-feira do mês às 19h"
+      }
+    },
+    {
+      "id": 31,
+      "nome": "Formação Observability & Monitoring",
+      "tecnologia": "Prometheus / Grafana / OpenTelemetry",
+      "nivel": "Avançado",
+      "numero_de_modulos": 14,
+      "xp_total": 58000,
+      "badges_disponiveis": [
+        "Prometheus Expert",
+        "Grafana Dashboard Pro",
+        "Distributed Tracing",
+        "Observability Engineer"
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": false,
+        "frequencia": null,
+        "dia_hora": null
+      }
+    },
+    {
+      "id": 32,
+      "nome": "Formação Salesforce Developer",
+      "tecnologia": "Salesforce / Apex",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 53000,
+      "badges_disponiveis": [
+        "Salesforce Admin",
+        "Apex Developer",
+        "Lightning Components",
+        "Salesforce Developer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 25,
+        "validade": "2025-12-01",
+        "cupom": "SALESFORCE25"
+      },
+      "vitalicio": false,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Quinzenal",
+        "dia_hora": "Toda quarta-feira às 18h"
+      }
+    },
+    {
+      "id": 33,
+      "nome": "Formação Next.js Full Stack",
+      "tecnologia": "Next.js / React / TypeScript",
+      "nivel": "Avançado",
+      "numero_de_modulos": 17,
+      "xp_total": 71000,
+      "badges_disponiveis": [
+        "Next.js Fundamentals",
+        "SSR & SSG Expert",
+        "Next.js API Routes",
+        "Full Stack Next.js Developer",
+        "Performance Optimizer"
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-10-31",
+        "cupom": "NEXTJS20"
+      },
+      "vitalicio": true,
+      "live_ao_vivo": {
+        "disponivel": true,
+        "frequencia": "Semanal",
+        "dia_hora": "Toda sexta-feira às 20h"
+      }
+    }
+  ]
+}

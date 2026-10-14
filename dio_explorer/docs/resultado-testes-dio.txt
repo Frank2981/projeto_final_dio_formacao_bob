@@ -1,0 +1,143 @@
+﻿================================================================
+  DIO EXPLORER -- RELATORIO COMPLETO DE EXECUCAO
+  Gerado em: 2026-10-14 11:20:25
+================================================================
+
+
+================================================================
+  COMANDO /trilha Java
+================================================================
+  Nome       : FormaÃ§Ã£o Java Developer
+  Tecnologia : Java
+  Nivel      : IntermediÃ¡rio
+  Modulos    : 12 modulos
+  XP Total   : 48000 XP
+  Vitalicio  : Sim
+
+  --- Cronograma de Modulos ---
+  1. Modulo 1 -- Fundamentos e Configuracao do Ambiente
+  2. Modulo 2 -- Sintaxe e Estruturas Basicas
+  3. Modulo 3 -- Estruturas de Dados e Colecoes
+  4. Modulo 4 -- Programacao Orientada a Objetos
+  5. Modulo 5 -- Tratamento de Erros e Excecoes
+  6. Modulo 6 -- Modulos, Pacotes e Dependencias
+  7. Modulo 7 -- Testes Unitarios e Boas Praticas
+  8. Modulo 8 -- Persistencia e Banco de Dados
+  9. Modulo 9 -- APIs e Integracao de Servicos
+  10. Modulo 10 -- Seguranca e Autenticacao
+  11. Modulo 11 -- Performance e Otimizacao
+  12. Modulo 12 -- Deploy, CI/CD e Boas Praticas de Producao
+
+  --- Badges Disponiveis ---
+  - [bronze] Java Fundamentals
+  - [prata] OOP Master
+  - [prata] Spring Boot Expert
+  - [ouro] Java Developer
+
+  --- Lives ao Vivo ---
+  Disponivel : Sim
+  Frequencia : Semanal
+  Horario    : Toda terca-feira as 19h
+
+  --- Promocao Ativa ---
+  Cupom      : JAVA20
+  Desconto   : 20%
+  Validade   : 2025-12-31
+
+
+================================================================
+  COMANDO /desafio Java Intermediario  (Aluno: Piminchumo)
+================================================================
+  ID Desafio        : DIO-1386
+  Tecnologia        : Java
+  Nivel             : Intermediario
+  XP ao concluir    : 2250 XP
+  Tempo estimado    : 1h-2h
+
+  --- Descricao ---
+  Voce foi contratado por uma startup de EdTech para construir um
+  sistema de rastreamento de progresso de alunos em Java.
+  O sistema deve receber uma lista de alunos com seus respectivos
+  modulos concluidos e calcular o percentual de conclusao de cada um.
+  Ao final, identificar automaticamente os aptos ao certificado
+  (>= 70% de conclusao).
+
+  --- Requisitos ---
+  1. Receber lista de alunos com nome e modulos concluidos
+  2. Calcular percentual de conclusao de cada aluno
+  3. Identificar aptos ao certificado (conclusao >= 70%)
+  4. Retornar resultado ordenado por percentual (decrescente)
+  5. Tratar entradas invalidas (lista vazia, modulos negativos)
+
+  --- Casos de Teste ---
+  Entrada: modulos_concluidos=12, total=12  => 100% -- Apto
+  Entrada: modulos_concluidos=8,  total=12  =>  67% -- Pendente
+  Entrada: modulos_concluidos=0,  total=12  =>   0% -- Pendente
+  Entrada: lista vazia                      =>  [] (sem erro)
+
+  --- Recompensa ---
+  +2250 XP adicionados ao perfil DIO de Piminchumo
+  Badge desbloqueada: Java Developer
+
+
+================================================================
+  COMANDO /certificado Piminchumo "Formacao Java Developer"
+================================================================
+
+  +----------------------------------------------------------+
+  |          CERTIFICADO DE CONCLUSAO  --  dio.me            |
+  +----------------------------------------------------------+
+
+  A Digital Innovation One certifica que
+
+         PIMINCHUMO
+
+  concluiu com exito a trilha de aprendizagem
+
+         FORMACAO JAVA DEVELOPER
+
+  +----------------------------------------------------------+
+  Aluno            : Piminchumo
+  Trilha           : Formacao Java Developer
+  Instituicao      : Digital Innovation One -- DIO
+  Data de Conclusao: 14/10/2026
+  Carga Horaria    : 96h
+  Nivel            : Intermediario
+  ID Certificado   : DIO-CERT-E8DAG6CQ
+  Status           : Aprovado
+  +----------------------------------------------------------+
+
+  Competencias Certificadas:
+  - Java Fundamentals
+  - OOP Master
+  - Spring Boot Expert
+  - Java Developer
+
+  Verificacao:
+  https://www.dio.me/certificate/DIO-CERT-E8DAG6CQ
+
+  Assinaturas:
+  _______________________   _______________________
+  Yure Souza                Claudio Giorgio
+  CEO -- DIO                CTO -- DIO
+
+  (c) 2026 Digital Innovation One. Certificado ficticio educacional.
+
+
+================================================================
+  RESULTADO DOS TESTES UNITARIOS
+================================================================
+
+
+  ============================================================
+  Total de testes : 39
+  Aprovados       : 39
+  Reprovados      : 0
+  Cobertura       : 100%  (meta: >= 70%)
+  Status          : META ATINGIDA [OK]
+  ============================================================
+
+
+================================================================
+  FIM DO RELATORIO
+================================================================
